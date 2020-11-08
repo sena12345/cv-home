@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cv-home:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cv_home_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cv-home/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cv-home" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="libs" />
+          <element id="library" level="application" name="mysql-connector-java-8.0.22" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
